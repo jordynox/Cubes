@@ -1,0 +1,2 @@
+/Users/jordanponomarenko/Desktop/Cubes/build/CMakeFiles/edit_cache.dir
+/Users/jordanponomarenko/Desktop/Cubes/build/CMakeFiles/rebuild_cache.dir

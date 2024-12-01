@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FC4804A8410ADCFA8DC1C9C /* Pods_Cubes_CubesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F7991D1D8B6DDDE050B1DB /* Pods_Cubes_CubesUITests.framework */; };
+		4F6C0A0577EC44343EFD4952 /* Pods_Cubes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A52CF22F27F1EF3F32E4EF54 /* Pods_Cubes.framework */; };
+		E2F24CBA55B4024B32B22462 /* Pods_CubesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FA9A264FE04EB14386F64F8 /* Pods_CubesTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C6E10632CF9B71400F984BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C6E10492CF9B71200F984BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C6E10502CF9B71200F984BF;
+			remoteInfo = Cubes;
+		};
+		5C6E106D2CF9B71400F984BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C6E10492CF9B71200F984BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C6E10502CF9B71200F984BF;
+			remoteInfo = Cubes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AF4B9E20A07998EC28215E3 /* Pods-Cubes-CubesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cubes-CubesUITests.release.xcconfig"; path = "Target Support Files/Pods-Cubes-CubesUITests/Pods-Cubes-CubesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		50435066D2580B3C7CE1E26E /* Pods-Cubes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cubes.release.xcconfig"; path = "Target Support Files/Pods-Cubes/Pods-Cubes.release.xcconfig"; sourceTree = "<group>"; };
+		5C6E10512CF9B71200F984BF /* Cubes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cubes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C6E10622CF9B71400F984BF /* CubesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CubesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C6E106C2CF9B71400F984BF /* CubesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CubesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FA9A264FE04EB14386F64F8 /* Pods_CubesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CubesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AF77144D6F794D55F66E407 /* Pods-Cubes-CubesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cubes-CubesUITests.debug.xcconfig"; path = "Target Support Files/Pods-Cubes-CubesUITests/Pods-Cubes-CubesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A52CF22F27F1EF3F32E4EF54 /* Pods_Cubes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cubes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9F7991D1D8B6DDDE050B1DB /* Pods_Cubes_CubesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cubes_CubesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA34565C0C1D45879D3D60BC /* Pods-Cubes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cubes.debug.xcconfig"; path = "Target Support Files/Pods-Cubes/Pods-Cubes.debug.xcconfig"; sourceTree = "<group>"; };
+		CF67D0D2B9C636E9581BDA7C /* Pods-CubesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CubesTests.debug.xcconfig"; path = "Target Support Files/Pods-CubesTests/Pods-CubesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DBADD22FF070FDA383264A15 /* Pods-CubesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CubesTests.release.xcconfig"; path = "Target Support Files/Pods-CubesTests/Pods-CubesTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5C6E10532CF9B71200F984BF /* Cubes */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = Cubes;
+			sourceTree = "<group>";
+		};
+		5C6E10652CF9B71400F984BF /* CubesTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = CubesTests;
+			sourceTree = "<group>";
+		};
+		5C6E106F2CF9B71400F984BF /* CubesUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = CubesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C6E104E2CF9B71200F984BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F6C0A0577EC44343EFD4952 /* Pods_Cubes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6E105F2CF9B71400F984BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F24CBA55B4024B32B22462 /* Pods_CubesTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6E10692CF9B71400F984BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC4804A8410ADCFA8DC1C9C /* Pods_Cubes_CubesUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C6E10482CF9B71200F984BF = {
+			isa = PBXGroup;
+			children = (
+				5C6E10532CF9B71200F984BF /* Cubes */,
+				5C6E10652CF9B71400F984BF /* CubesTests */,
+				5C6E106F2CF9B71400F984BF /* CubesUITests */,
+				5C6E10522CF9B71200F984BF /* Products */,
+				79D83B466F4EB0399AFAF4A7 /* Pods */,
+				B2BF50061958CB29229FBDC8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5C6E10522CF9B71200F984BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C6E10512CF9B71200F984BF /* Cubes.app */,
+				5C6E10622CF9B71400F984BF /* CubesTests.xctest */,
+				5C6E106C2CF9B71400F984BF /* CubesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79D83B466F4EB0399AFAF4A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA34565C0C1D45879D3D60BC /* Pods-Cubes.debug.xcconfig */,
+				50435066D2580B3C7CE1E26E /* Pods-Cubes.release.xcconfig */,
+				7AF77144D6F794D55F66E407 /* Pods-Cubes-CubesUITests.debug.xcconfig */,
+				0AF4B9E20A07998EC28215E3 /* Pods-Cubes-CubesUITests.release.xcconfig */,
+				CF67D0D2B9C636E9581BDA7C /* Pods-CubesTests.debug.xcconfig */,
+				DBADD22FF070FDA383264A15 /* Pods-CubesTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B2BF50061958CB29229FBDC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A52CF22F27F1EF3F32E4EF54 /* Pods_Cubes.framework */,
+				B9F7991D1D8B6DDDE050B1DB /* Pods_Cubes_CubesUITests.framework */,
+				5FA9A264FE04EB14386F64F8 /* Pods_CubesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C6E10502CF9B71200F984BF /* Cubes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C6E10762CF9B71400F984BF /* Build configuration list for PBXNativeTarget "Cubes" */;
+			buildPhases = (
+				90A647C78BB3375213B6E92C /* [CP] Check Pods Manifest.lock */,
+				5C6E104D2CF9B71200F984BF /* Sources */,
+				5C6E104E2CF9B71200F984BF /* Frameworks */,
+				5C6E104F2CF9B71200F984BF /* Resources */,
+				18AF86F331B49359C8BC30B3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5C6E10532CF9B71200F984BF /* Cubes */,
+			);
+			name = Cubes;
+			productName = Cubes;
+			productReference = 5C6E10512CF9B71200F984BF /* Cubes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C6E10612CF9B71400F984BF /* CubesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C6E10792CF9B71400F984BF /* Build configuration list for PBXNativeTarget "CubesTests" */;
+			buildPhases = (
+				473246DE59282C804307DF4C /* [CP] Check Pods Manifest.lock */,
+				5C6E105E2CF9B71400F984BF /* Sources */,
+				5C6E105F2CF9B71400F984BF /* Frameworks */,
+				5C6E10602CF9B71400F984BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C6E10642CF9B71400F984BF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5C6E10652CF9B71400F984BF /* CubesTests */,
+			);
+			name = CubesTests;
+			productName = CubesTests;
+			productReference = 5C6E10622CF9B71400F984BF /* CubesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C6E106B2CF9B71400F984BF /* CubesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C6E107C2CF9B71400F984BF /* Build configuration list for PBXNativeTarget "CubesUITests" */;
+			buildPhases = (
+				87D5B35382DA6B1B1F2F75D1 /* [CP] Check Pods Manifest.lock */,
+				5C6E10682CF9B71400F984BF /* Sources */,
+				5C6E10692CF9B71400F984BF /* Frameworks */,
+				5C6E106A2CF9B71400F984BF /* Resources */,
+				084BDCECD7184E27CD2519EE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C6E106E2CF9B71400F984BF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5C6E106F2CF9B71400F984BF /* CubesUITests */,
+			);
+			name = CubesUITests;
+			productName = CubesUITests;
+			productReference = 5C6E106C2CF9B71400F984BF /* CubesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C6E10492CF9B71200F984BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					5C6E10502CF9B71200F984BF = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					5C6E10612CF9B71400F984BF = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 5C6E10502CF9B71200F984BF;
+					};
+					5C6E106B2CF9B71400F984BF = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 5C6E10502CF9B71200F984BF;
+					};
+				};
+			};
+			buildConfigurationList = 5C6E104C2CF9B71200F984BF /* Build configuration list for PBXProject "Cubes" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C6E10482CF9B71200F984BF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5C6E10522CF9B71200F984BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C6E10502CF9B71200F984BF /* Cubes */,
+				5C6E10612CF9B71400F984BF /* CubesTests */,
+				5C6E106B2CF9B71400F984BF /* CubesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C6E104F2CF9B71200F984BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6E10602CF9B71400F984BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6E106A2CF9B71400F984BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		084BDCECD7184E27CD2519EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cubes-CubesUITests/Pods-Cubes-CubesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cubes-CubesUITests/Pods-Cubes-CubesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cubes-CubesUITests/Pods-Cubes-CubesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18AF86F331B49359C8BC30B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cubes/Pods-Cubes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cubes/Pods-Cubes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cubes/Pods-Cubes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		473246DE59282C804307DF4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CubesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87D5B35382DA6B1B1F2F75D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cubes-CubesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90A647C78BB3375213B6E92C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cubes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C6E104D2CF9B71200F984BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6E105E2CF9B71400F984BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6E10682CF9B71400F984BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C6E10642CF9B71400F984BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C6E10502CF9B71200F984BF /* Cubes */;
+			targetProxy = 5C6E10632CF9B71400F984BF /* PBXContainerItemProxy */;
+		};
+		5C6E106E2CF9B71400F984BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C6E10502CF9B71200F984BF /* Cubes */;
+			targetProxy = 5C6E106D2CF9B71400F984BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5C6E10742CF9B71400F984BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C6E10752CF9B71400F984BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5C6E10772CF9B71400F984BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA34565C0C1D45879D3D60BC /* Pods-Cubes.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Cubes/Cubes.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Firecourt.Cubes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5C6E10782CF9B71400F984BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50435066D2580B3C7CE1E26E /* Pods-Cubes.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Cubes/Cubes.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Firecourt.Cubes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5C6E107A2CF9B71400F984BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF67D0D2B9C636E9581BDA7C /* Pods-CubesTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Firecourt.CubesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cubes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cubes";
+			};
+			name = Debug;
+		};
+		5C6E107B2CF9B71400F984BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBADD22FF070FDA383264A15 /* Pods-CubesTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Firecourt.CubesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cubes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cubes";
+			};
+			name = Release;
+		};
+		5C6E107D2CF9B71400F984BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AF77144D6F794D55F66E407 /* Pods-Cubes-CubesUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Firecourt.CubesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Cubes;
+			};
+			name = Debug;
+		};
+		5C6E107E2CF9B71400F984BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AF4B9E20A07998EC28215E3 /* Pods-Cubes-CubesUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Firecourt.CubesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Cubes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C6E104C2CF9B71200F984BF /* Build configuration list for PBXProject "Cubes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6E10742CF9B71400F984BF /* Debug */,
+				5C6E10752CF9B71400F984BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C6E10762CF9B71400F984BF /* Build configuration list for PBXNativeTarget "Cubes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6E10772CF9B71400F984BF /* Debug */,
+				5C6E10782CF9B71400F984BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C6E10792CF9B71400F984BF /* Build configuration list for PBXNativeTarget "CubesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6E107A2CF9B71400F984BF /* Debug */,
+				5C6E107B2CF9B71400F984BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C6E107C2CF9B71400F984BF /* Build configuration list for PBXNativeTarget "CubesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6E107D2CF9B71400F984BF /* Debug */,
+				5C6E107E2CF9B71400F984BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C6E10492CF9B71200F984BF /* Project object */;
+}
