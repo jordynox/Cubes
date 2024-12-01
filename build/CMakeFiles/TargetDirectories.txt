@@ -1,2 +1,10 @@
-/Users/jordanponomarenko/Desktop/Cubes/build/CMakeFiles/edit_cache.dir
-/Users/jordanponomarenko/Desktop/Cubes/build/CMakeFiles/rebuild_cache.dir
+/Users/jordanponomarenko/Documents/GitHub/Cubes/build/CMakeFiles/FirecourtCubes.dir
+/Users/jordanponomarenko/Documents/GitHub/Cubes/build/CMakeFiles/package.dir
+/Users/jordanponomarenko/Documents/GitHub/Cubes/build/CMakeFiles/package_source.dir
+/Users/jordanponomarenko/Documents/GitHub/Cubes/build/CMakeFiles/test.dir
+/Users/jordanponomarenko/Documents/GitHub/Cubes/build/CMakeFiles/edit_cache.dir
+/Users/jordanponomarenko/Documents/GitHub/Cubes/build/CMakeFiles/rebuild_cache.dir
+/Users/jordanponomarenko/Documents/GitHub/Cubes/build/CMakeFiles/list_install_components.dir
+/Users/jordanponomarenko/Documents/GitHub/Cubes/build/CMakeFiles/install.dir
+/Users/jordanponomarenko/Documents/GitHub/Cubes/build/CMakeFiles/install/local.dir
+/Users/jordanponomarenko/Documents/GitHub/Cubes/build/CMakeFiles/install/strip.dir

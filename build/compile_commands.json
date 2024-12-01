@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/Users/jordanponomarenko/Documents/GitHub/Cubes/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14 -I/Users/jordanponomarenko/Documents/GitHub/Cubes/Cubes/AudioEngine -I/Users/jordanponomarenko/Documents/GitHub/Cubes/Cubes/GraphicEngine -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/FirecourtCubes.dir/Cubes/AudioEngine/initializer.cpp.o -c /Users/jordanponomarenko/Documents/GitHub/Cubes/Cubes/AudioEngine/initializer.cpp",
+  "file": "/Users/jordanponomarenko/Documents/GitHub/Cubes/Cubes/AudioEngine/initializer.cpp",
+  "output": "CMakeFiles/FirecourtCubes.dir/Cubes/AudioEngine/initializer.cpp.o"
+},
+{
+  "directory": "/Users/jordanponomarenko/Documents/GitHub/Cubes/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14 -I/Users/jordanponomarenko/Documents/GitHub/Cubes/Cubes/AudioEngine -I/Users/jordanponomarenko/Documents/GitHub/Cubes/Cubes/GraphicEngine -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -o CMakeFiles/FirecourtCubes.dir/Cubes/GraphicEngine/initializer.cpp.o -c /Users/jordanponomarenko/Documents/GitHub/Cubes/Cubes/GraphicEngine/initializer.cpp",
+  "file": "/Users/jordanponomarenko/Documents/GitHub/Cubes/Cubes/GraphicEngine/initializer.cpp",
+  "output": "CMakeFiles/FirecourtCubes.dir/Cubes/GraphicEngine/initializer.cpp.o"
+},
+{
+  "directory": "/Users/jordanponomarenko/Documents/GitHub/Cubes/build",
+  "command": ":",
+  "file": "/Users/jordanponomarenko/Documents/GitHub/Cubes/Cubes/AppDelegate.swift",
+  "output": "CMakeFiles/FirecourtCubes.dir/Cubes/AppDelegate.swift.o"
+},
+{
+  "directory": "/Users/jordanponomarenko/Documents/GitHub/Cubes/build",
+  "command": ":",
+  "file": "/Users/jordanponomarenko/Documents/GitHub/Cubes/Cubes/ViewController.swift",
+  "output": "CMakeFiles/FirecourtCubes.dir/Cubes/ViewController.swift.o"
+}
+]

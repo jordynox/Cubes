@@ -1,0 +1,20 @@
+{
+	"" : 
+	{
+		"swift-dependencies" : "CMakeFiles/FirecourtCubes.dir/Debug/FirecourtCubes.swiftdeps"
+	},
+	"/Users/jordanponomarenko/Documents/GitHub/Cubes/Cubes/AppDelegate.swift" : 
+	{
+		"dependencies" : "CMakeFiles/FirecourtCubes.dir/Cubes/AppDelegate.swift.o.d",
+		"diagnostics" : "CMakeFiles/FirecourtCubes.dir/Cubes/AppDelegate.swift.o.dia",
+		"object" : "CMakeFiles/FirecourtCubes.dir/Cubes/AppDelegate.swift.o",
+		"swift-dependencies" : "CMakeFiles/FirecourtCubes.dir/Cubes/AppDelegate.swift.o.swiftdeps"
+	},
+	"/Users/jordanponomarenko/Documents/GitHub/Cubes/Cubes/ViewController.swift" : 
+	{
+		"dependencies" : "CMakeFiles/FirecourtCubes.dir/Cubes/ViewController.swift.o.d",
+		"diagnostics" : "CMakeFiles/FirecourtCubes.dir/Cubes/ViewController.swift.o.dia",
+		"object" : "CMakeFiles/FirecourtCubes.dir/Cubes/ViewController.swift.o",
+		"swift-dependencies" : "CMakeFiles/FirecourtCubes.dir/Cubes/ViewController.swift.o.swiftdeps"
+	}
+}
