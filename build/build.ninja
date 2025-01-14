@@ -49,6 +49,13 @@ cmake_ninja_workdir = /Users/jordanponomarenko/Documents/GitHub/Cubes/build/
 
 build cmake_object_order_depends_target_FirecourtCubes: phony || .
 
+build CMakeFiles/FirecourtCubes.dir/Cubes/AudioEngine/AudioEngine.cpp.o: CXX_COMPILER__FirecourtCubes_unscanned_Debug /Users/jordanponomarenko/Documents/GitHub/Cubes/Cubes/AudioEngine/AudioEngine.cpp || cmake_object_order_depends_target_FirecourtCubes
+  DEP_FILE = CMakeFiles/FirecourtCubes.dir/Cubes/AudioEngine/AudioEngine.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  INCLUDES = -I/Users/jordanponomarenko/Documents/GitHub/Cubes/Cubes/AudioEngine -I/Users/jordanponomarenko/Documents/GitHub/Cubes/Cubes/GraphicEngine
+  OBJECT_DIR = CMakeFiles/FirecourtCubes.dir
+  OBJECT_FILE_DIR = CMakeFiles/FirecourtCubes.dir/Cubes/AudioEngine
+
 build CMakeFiles/FirecourtCubes.dir/Cubes/AudioEngine/initializer.cpp.o: CXX_COMPILER__FirecourtCubes_unscanned_Debug /Users/jordanponomarenko/Documents/GitHub/Cubes/Cubes/AudioEngine/initializer.cpp || cmake_object_order_depends_target_FirecourtCubes
   DEP_FILE = CMakeFiles/FirecourtCubes.dir/Cubes/AudioEngine/initializer.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
@@ -71,7 +78,7 @@ build CMakeFiles/FirecourtCubes.dir/Cubes/GraphicEngine/initializer.cpp.o: CXX_C
 #############################################
 # Link the executable FirecourtCubes.app/Contents/MacOS/FirecourtCubes
 
-build FirecourtCubes.app/Contents/MacOS/FirecourtCubes CMakeFiles/FirecourtCubes.dir/Cubes/AppDelegate.swift.o CMakeFiles/FirecourtCubes.dir/Cubes/ViewController.swift.o: Swift_EXECUTABLE_LINKER__FirecourtCubes_Debug CMakeFiles/FirecourtCubes.dir/Cubes/AudioEngine/initializer.cpp.o CMakeFiles/FirecourtCubes.dir/Cubes/GraphicEngine/initializer.cpp.o /Users/jordanponomarenko/Documents/GitHub/Cubes/Cubes/AppDelegate.swift /Users/jordanponomarenko/Documents/GitHub/Cubes/Cubes/ViewController.swift
+build FirecourtCubes.app/Contents/MacOS/FirecourtCubes CMakeFiles/FirecourtCubes.dir/Cubes/AppDelegate.swift.o CMakeFiles/FirecourtCubes.dir/Cubes/ViewController.swift.o: Swift_EXECUTABLE_LINKER__FirecourtCubes_Debug CMakeFiles/FirecourtCubes.dir/Cubes/AudioEngine/AudioEngine.cpp.o CMakeFiles/FirecourtCubes.dir/Cubes/AudioEngine/initializer.cpp.o CMakeFiles/FirecourtCubes.dir/Cubes/GraphicEngine/initializer.cpp.o /Users/jordanponomarenko/Documents/GitHub/Cubes/Cubes/AppDelegate.swift /Users/jordanponomarenko/Documents/GitHub/Cubes/Cubes/ViewController.swift
   FLAGS = -Onone -g -incremental -sdk /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -output-file-map CMakeFiles/FirecourtCubes.dir/Debug/output-file-map.json -Onone -g -incremental -sdk /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
   INCLUDES = -I /Users/jordanponomarenko/Documents/GitHub/Cubes/Cubes/AudioEngine -I /Users/jordanponomarenko/Documents/GitHub/Cubes/Cubes/GraphicEngine
   LINK_LIBRARIES = -framework Cocoa  -framework AppKit  -framework Foundation  -framework QuartzCore  -lemutls_w  -lheapt_w  -lstdc++  -lgcc
@@ -82,7 +89,7 @@ build FirecourtCubes.app/Contents/MacOS/FirecourtCubes CMakeFiles/FirecourtCubes
   SWIFT_LIBRARY_NAME = FirecourtCubes
   SWIFT_MODULE = FirecourtCubes.swiftmodule
   SWIFT_MODULE_NAME = FirecourtCubes
-  SWIFT_SOURCES = CMakeFiles/FirecourtCubes.dir/Cubes/AudioEngine/initializer.cpp.o CMakeFiles/FirecourtCubes.dir/Cubes/GraphicEngine/initializer.cpp.o /Users/jordanponomarenko/Documents/GitHub/Cubes/Cubes/AppDelegate.swift /Users/jordanponomarenko/Documents/GitHub/Cubes/Cubes/ViewController.swift
+  SWIFT_SOURCES = CMakeFiles/FirecourtCubes.dir/Cubes/AudioEngine/AudioEngine.cpp.o CMakeFiles/FirecourtCubes.dir/Cubes/AudioEngine/initializer.cpp.o CMakeFiles/FirecourtCubes.dir/Cubes/GraphicEngine/initializer.cpp.o /Users/jordanponomarenko/Documents/GitHub/Cubes/Cubes/AppDelegate.swift /Users/jordanponomarenko/Documents/GitHub/Cubes/Cubes/ViewController.swift
   TARGET_FILE = FirecourtCubes.app/Contents/MacOS/FirecourtCubes
   TARGET_PDB = FirecourtCubes.dbg
 
